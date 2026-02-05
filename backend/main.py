@@ -59,7 +59,7 @@ async def handle_webhook(request: Request):
 
 @app.get("/")
 def home():
-    return {"message": "CodeNexus AI Backend is Live!"}
+    return {"message" "CodeNexus AI Backend is Live!"}
 
 
 
