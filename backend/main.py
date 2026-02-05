@@ -59,10 +59,7 @@ async def handle_webhook(request: Request):
 
 @app.get("/")
 def home():
-    print("This will crash"
-x = 10 / 0
-return {"msg" "I am broken"}
-
+    return {"message": "CodeNexus AI Backend is Live!"}
 
 
 
