@@ -59,7 +59,9 @@ async def handle_webhook(request: Request):
 
 @app.get("/")
 def home():
-    return {"message": "CodeNexus AI Backend is Live!"}
+    # This is valid Python syntax, but bad logic (Divide by Zero)
+    result = 100 / 0 
+    return {"message": "CodeNexus AI Backend is Live!", "result": result}
 
 
 
